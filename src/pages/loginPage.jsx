@@ -24,7 +24,7 @@ navigate("/");
       <Navbar />
  
      
-      <div className="flex flex-col items-center justify-center min-h-screen bg-orange-100 p-4">
+      <div className="flex flex-col items-center justify-center min-h-screen bg-white p-4">
         <h1 className="text-4xl font-bold text-black mb-2 text-center">
           Entre ou Cadastre-se
         </h1>
@@ -33,7 +33,7 @@ navigate("/");
         </p>
  
         
-        <div className="bg-orange-200 shadow-md rounded px-10 pt-5 pb-5 mb-6 w-full max-w-md">
+        <div className="bg-gray-300 shadow-md rounded px-10 pt-5 pb-5 mb-6 w-full max-w-md">
          
         <form onSubmit={handleLogin}>
   
@@ -118,13 +118,13 @@ navigate("/");
         </div>
  
         
-        <div className="bg-orange-50 px-6 py-2 rounded shadow w-full max-w-md text-center">
+        <div className="bg-gray-300 px-6 py-2 rounded shadow w-full max-w-md text-center">
           <span className="block text-gray-800 font-medium mb-2">
             Tenho um problema de segurança
           </span>
           <button
             type="button"
-            className="bg-orange-300 text-white px-4 py-2 rounded hover:bg-orange-600 transition-colors"
+            className="bg-gray-400 text-white px-4 py-2 rounded hover:bg-gray-600 transition-colors"
             onClick={() => alert("Redirecionando para suporte...")}
            
           >

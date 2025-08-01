@@ -39,7 +39,7 @@ const produtos = [
 
 const Beleza = () => {
   return (
-    <div className="font-sans p-6 bg">
+    <div className="font-sans p-6 bg-">
       <h1 className="text-3xl font-bold text-center text-black mb-10">
         Beleza e Cuidados para você!
       </h1>
@@ -47,7 +47,7 @@ const Beleza = () => {
         {produtos.map((produto, index) => (
           <div
             key={index}
-            className="bg-orange-200 border border-gray-200 rounded-xl shadow-md w-[250px] p-4 flex flex-col justify-between transition-transform hover:scale-[1.02]"
+            className=" border border-gray-200 rounded-xl shadow-md w-[250px] p-4 flex flex-col justify-between transition-transform hover:scale-[1.02]"
           >
             <img
               src={produto.imagem}
@@ -60,7 +60,7 @@ const Beleza = () => {
             </div>
             <a
               href={produto.link}
-              className="mt-4 inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-md text-center transition duration-300"
+              className="mt-4 inline-block bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded-md text-center transition duration-300"
             >
               Comprar agora
             </a>

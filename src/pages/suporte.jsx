@@ -23,7 +23,7 @@ const Suporte = () => {
  
      return (
         <>
-        <div className="bg-orange-100">
+        <div className="bg-white">
         <Navbar/>
         <div className="max-w-3xl mx-auto px-4 py-8">
             <h1 className="text-3xl font-bold mb-4 text-center text-gray-800">Suporte ao Cliente</h1>
@@ -84,7 +84,7 @@ const Suporte = () => {
                 </div>
                 <button
                     type="submit"
-                    className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded-md transition duration-200"
+                    className="bg-gray-400 hover:bg-gray-600 text-white font-semibold py-2 px-4 rounded-md transition duration-200"
                 >
                     Enviar
                 </button>
