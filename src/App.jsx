@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route} from"react-router-dom";
-import Home from "./pages/Home";
+import Home from "./pages/home";
 import LoginPage from "./pages/loginPage";
-import RegisterPage from "./pages/RegisterPage";
+import RegisterPage from "./pages/registerPage";
 import Suporte from "./pages/suporte";
 import OffersPage from "./pages/offersPage";
 import Sobre from "./pages/sobre";
@@ -10,6 +10,7 @@ import Sobre from "./pages/sobre";
  import Pagamento from "./pages/pagamento"
 import BelezaPage from "./pages/belezaPage";
 import Lojas from "./pages/lojas";
+import ComprarPage from "./pages/comprarPage";
 
  
  
@@ -29,6 +30,7 @@ function App() {
         <Route path="/categorias/Beleza e Cuidados" element={<BelezaPage/>} />
         <Route path="/lojas" element={<Lojas/>} />
         <Route path="/reportar" element={<Suporte/>} />
+        <Route path="/comprar" element={<ComprarPage/>} />
       </Routes>
     </Router>
   )
