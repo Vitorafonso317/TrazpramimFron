@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import SuporteForm from "../components/suporteForm";
+import RegisterPage from "./registerPage";
 
  
 const Suporte = () => {
