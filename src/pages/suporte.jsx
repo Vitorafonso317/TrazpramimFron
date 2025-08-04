@@ -4,7 +4,6 @@ import Navbar from "../components/navbar";
 import SuporteForm from "../components/suporteForm";
 
  
-<<<<<<< HEAD
 const Suporte = () => {
     const [form, setForm] = useState({
         nome: "",
@@ -97,18 +96,6 @@ const Suporte = () => {
         <Footer/>
         </>
     );
-=======
-const RegisterPage = () => {
-  return (
-    <>
-    <Navbar/>
-   
-   <SuporteForm/>
-   
-      <Footer/>
-    </>
-  );
->>>>>>> 6c87c783156a3538df1a0ddd3549eabd3a173ffb
 };
  
 export default RegisterPage;

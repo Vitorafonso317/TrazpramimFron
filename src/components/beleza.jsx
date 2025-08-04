@@ -18,13 +18,8 @@ const Beleza = () => {
       <div className="flex flex-wrap justify-center gap-6">
         {produtos.map((produto) => (
           <div
-<<<<<<< HEAD
             key={index}
             className=" border border-gray-200 rounded-xl shadow-md w-[250px] p-4 flex flex-col justify-between transition-transform hover:scale-[1.02]"
-=======
-            key={produto.id} // Use id do produto
-            className="bg-orange-200 border border-gray-200 rounded-xl shadow-md w-[250px] p-4 flex flex-col justify-between transition-transform hover:scale-[1.02]"
->>>>>>> 6c87c783156a3538df1a0ddd3549eabd3a173ffb
           >
             <img
               src={produto.imagem}  // Imagem via URL vindo do backend
@@ -36,13 +31,8 @@ const Beleza = () => {
               <p className="text-black text-lg font-bold mt-1">{produto.preco}</p>
             </div>
             <a
-<<<<<<< HEAD
               href={produto.link}
               className="mt-4 inline-block bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded-md text-center transition duration-300"
-=======
-              href={`/comprar/${produto.id}`} // Link dinâmico para página de compra
-              className="mt-4 inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-md text-center transition duration-300"
->>>>>>> 6c87c783156a3538df1a0ddd3549eabd3a173ffb
             >
               Comprar agora
             </a>
